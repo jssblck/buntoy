@@ -2,5 +2,15 @@
 name = "buntoy"
 version = "0.1.0"
 edition = "2024"
+about = "A toy CLI tool that bundles JavaScript files"
+authors = ["Jessica Black <me@jessica.black>"]
 
 [dependencies]
+clap = { version = "4.5.32", features = ["cargo", "derive", "env"] }
+color-eyre = "0.6.3"
+hex = "0.4.3"
+indoc = "2.0.6"
+lazy-regex = { version = "3.4.1", features = ["std"] }
+nom = "8.0.0"
+sha2 = "0.10.8"
+walkdir = "2.5.0"
