@@ -54,7 +54,7 @@ Heya, Jess
 ```
 
 <details>
-  <summary>Output</summary>
+  <summary>Input files</summary>
 
   Contrived project 🥲
 
@@ -117,7 +117,7 @@ Heya, Jess
 </details>
 
 <details>
-  <summary>Output</summary>
+  <summary>Output bundle</summary>
 
   Warning: it's quite ugly 😅
 
