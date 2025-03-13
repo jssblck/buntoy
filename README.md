@@ -8,7 +8,25 @@ it's super unoptimized, has barely any features, and generates some truly horrif
 
 but it was fun!
 
+# things it doesn't do that a real bundler would do
+
+- cyclic require
+- ES6 keywords
+- ESM modules
+- minification
+- type checking
+- any kind of "is this actually valid to bundle" checking
+- any sort of performance considerations
+
 # what does it do?
+
+- Basic JS files with non-cyclic CJS modules
+  - using `module.exports =`,
+  - `module.export =`,
+  - `module.default =`,
+  - and `module =`.
+- evaluates the modules at runtime
+- emits bundled files to a single file
 
 ```shell
 # input:

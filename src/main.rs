@@ -274,6 +274,18 @@ fn js_loader() -> &'static str {
             }
             throw new Error('Module not found: ' + path);
         }
+        function __extendModules(digest, module) {
+          const existing = modules[digest] || {};
+          if (!!module.exports) {{
+            modules[digst] = module.exports;
+          }} else if (!!module.export) {{
+            modules[__digest] = module.export;
+          }} else if (!!module.default) {{
+            modules[__digest] = module.default;
+          }} else if (!!module) {{
+            modules[__digest] = module;
+          }}
+        }
     "}
 }
 
