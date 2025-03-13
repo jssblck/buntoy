@@ -2,7 +2,7 @@
 name = "buntoy"
 version = "0.1.0"
 edition = "2024"
-about = "A toy CLI tool that bundles JavaScript files"
+description = "A toy CLI tool that bundles JavaScript files"
 authors = ["Jessica Black <me@jessica.black>"]
 
 [dependencies]

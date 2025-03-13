@@ -254,12 +254,6 @@ fn js_wrap_module(file: &JsFile) -> String {
           }})();
           if (!!module.exports) {{
             modules[__digest] = module.exports;
-          }} else if (!!module.export) {{
-            modules[__digest] = module.export;
-          }} else if (!!module.default) {{
-            modules[__digest] = module.default;
-          }} else if (!!module) {{
-            modules[__digest] = module;
           }}
         }})(require, __modules);"#
     }

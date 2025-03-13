@@ -8,4 +8,4 @@ function greet() {
   return `${greeting}, ${name}`;
 }
 
-module.export = greet;
+module.exports = greet;
