@@ -17,6 +17,7 @@ but it was fun!
 - type checking
 - any kind of "is this actually valid to bundle" checking
 - any sort of performance considerations
+- ... and much more
 
 # what does it do?
 
