@@ -1,7 +1,12 @@
 
 # buntoy
 
-toy javascript bundler
+toy javascript bundler.
+
+i basically was like "what if i wanted to write a bundler from scratch, with only what i know, super quick and dirty".
+it's super unoptimized, has barely any features, and generates some truly horrific bundled code.
+
+but it was fun!
 
 # what does it do?
 
